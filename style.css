@@ -3,7 +3,12 @@ html {
 }
 
 body {
-  font-family: "Hiragino Kaku Gothic ProN",
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;;
 }
 
 img,
@@ -12,28 +17,30 @@ iframe {
 }
 
 /* ヘッダーのグループ */
-
 header {
   background-color: #707070;
-  margin:  auto;
+  margin: auto;
   max-width: 1279px;
+  position: relative;
 }
 
-h1 {
-  margin: 0 auto;
-  max-width: 960px;
-  height: 60px;
-  display: flex;
-  align-items: center;
+.logo {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
 
-  padding-left: 10px;
+.title {
+  position: absolute;
+  top: 14%;
+  left: 5%;
 }
 
 header p {
   margin-top: 0;
 }
 
-header p img {
+.main_image {
   width: 100%;
 }
 
@@ -51,18 +58,20 @@ header p img {
   margin: 0 auto 56px;
   letter-spacing: 0.2em;
   line-height: 1.87;
+  text-align: center;
 }
 
 .read {
   font-size: 13px;
   margin: 0 auto;
+  height: 59px;
   letter-spacing: 0.1em;
   line-height: 2.15;
   text-align: center;
 }
 
 section {
-  margin: 40px auto 0;
+  margin: 120px auto 0;
   max-width: 964px;
 }
 
@@ -83,7 +92,6 @@ section ol {
 }
 
 section ol li {
-  flex-basis: 300px;
   list-style-type: none;
 }
 
@@ -91,3 +99,75 @@ section ol li {
   font-size: 11px;
   letter-spacing: 0.1em;
 }
+
+section ol li div {
+  max-width: 129.79px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section ol li div p.price {
+  font-family: "Avenir";
+  font-size: 11px;
+  margin-top: 0;
+}
+
+section ol li div p.view {
+  font-family: "Lato";
+  font-size: 11px;
+  margin-top: 0;
+}
+
+/* .style_container {
+  position: relative;
+} */
+
+section ul li {
+  list-style-type: none;
+  position: relative;
+  margin: 0 0 50px 30px;
+}
+
+section ul li div {
+  position: absolute;
+  max-width: 300px;
+  height: 187px;
+  top: 45%;
+  right: 10px;
+}
+
+.color_number {
+  font-family: "Lato";
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  margin-bottom: 30px;
+}
+
+.color {
+  font-family: "Lato";
+  font-size: 22px;
+  letter-spacing: 0.4em;
+  width: 100%;
+}
+
+section div ul li div div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+  width: 100%;
+}
+
+.price {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+.view {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+/* .line {
+  position: absolute;
+} */
