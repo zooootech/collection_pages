@@ -45,8 +45,13 @@ header p {
 }
 
 /* メインコンテンツのグループ */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-top: 120px;
+}
 .copy {
-  margin: 120px auto;
+  margin: 0 auto;
   max-width: 570px;
   height: 168px;
 }
