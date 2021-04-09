@@ -84,6 +84,7 @@ header p {
   margin: 120px auto 0;
   max-width: 1647.17px;
   width: 100vw;
+  position: relative;
 }
 
 h2 {
@@ -184,6 +185,7 @@ section div ul li div div {
   text-decoration: underline;
 }
 
-/* .line {
+.line {
   position: absolute;
-} */
+  top: 0%;
+}
