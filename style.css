@@ -80,6 +80,12 @@ header p {
   max-width: 964px;
 }
 
+.style_section {
+  margin: 120px auto 0;
+  max-width: 1647.17px;
+  width: 100vw;
+}
+
 h2 {
   font-family: "Lato";
   font-size: 18px;
