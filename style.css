@@ -95,6 +95,10 @@ h2 {
   text-align: center;
 }
 
+.style_h2 {
+  margin-right: 21%;
+}
+
 section ol {
   display: flex;
   flex-flow: row wrap;
