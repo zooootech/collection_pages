@@ -97,7 +97,7 @@ h2 {
 }
 
 .style_h2 {
-  margin-right: 21%;
+  max-width: 1280px;
 }
 
 section ol {
