@@ -9,6 +9,8 @@ body {
   "Hiragino Sans",
   Meiryo,
   sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 img,
@@ -199,3 +201,8 @@ section div ul li div div {
   right: 0;
   margin: auto;
 } */
+
+footer {
+  
+  background-color: blueviolet;
+}
